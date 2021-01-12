@@ -129,6 +129,7 @@ namespace SQL_Yedek
             this.Controls.Add(this.txtDatabase);
             this.Controls.Add(this.txtSunucu);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SQL YEDEK";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
